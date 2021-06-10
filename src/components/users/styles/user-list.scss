@@ -1,0 +1,119 @@
+/* Bookshelf list/table */
+.table {
+  display: flex;
+  flex-flow: column;
+  thead {
+    th {
+      padding: 5px;
+      border-bottom: 2px solid #ffffff;
+    }
+  }
+}
+
+.table-head {
+  padding-left: 31px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 20px;
+  padding-bottom: 30px;
+  background: #fbfcfd;
+
+  .header-text {
+    display: flex;
+
+    margin-bottom: 1px;
+  }
+  .head-hr {
+  }
+  .email {
+  }
+  .one {
+    padding-left: 60px;
+  }
+  .of {
+    padding-left: 80px;
+  }
+}
+
+.table-body {
+  padding-left: 31px;
+  background: #fbfbfb none repeat scroll 0 0;
+  display: flex;
+}
+
+.table-head-item {
+  margin-left: 7px;
+  padding-left: 15px;
+  text-align: center;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+
+  color: #122232;
+}
+.table-row {
+  .table-static {
+  }
+  .linc-users {
+    display: block;
+    text-decoration: none;
+  }
+}
+
+.table-row:nth-child(even) {
+  background: #fffefe none repeat scroll 0 0;
+}
+
+.table-item {
+  overflow: hidden;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 10px;
+
+  color: #122232;
+}
+
+.table-head-item:not(:first-child):not(:last-child),
+.table-item:not(:first-child):not(:last-child) {
+  text-align: left;
+}
+
+.table-item:first-child {
+  width: 30px;
+}
+
+.table-item:nth-child(2) {
+  width: 50px;
+}
+
+.table-item:nth-child(3) {
+  width: 150px;
+}
+
+.table-item:nth-child(4) {
+  width: 50px;
+}
+
+.table-item:nth-child(5) {
+  width: 0px;
+}
+.table-item:nth-child(6) {
+  width: 0px;
+}
+
+.table-item:last-child {
+  width: 0px;
+}
+
+.table-row--active {
+  font-size: 30px;
+  color: rgb(17, 16, 16);
+  background: #fdfdfd;
+}

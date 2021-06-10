@@ -1,0 +1,31 @@
+.link {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.active {
+  color: #ecf2f6;
+}
+.user {
+  .container-table {
+    width: 100%;
+    overflow: auto;
+  }
+}
+.user-text {
+  padding-left: 31px;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 39px;
+
+  color: #1a1a1a;
+}

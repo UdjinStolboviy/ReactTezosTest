@@ -1,0 +1,57 @@
+.block-team {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  .team-title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 49px;
+    /* identical to box height */
+
+    color: #122232;
+    padding-left: 20px;
+  }
+
+  .team-info-one {
+    display: flex;
+    @media (max-width: 989px) {
+      display: flex;
+      flex-flow: column nowrap;
+    }
+
+    .team {
+      margin: 10px;
+      .team-info-img-icon {
+        width: 100%;
+        height: 80%;
+        @media (max-width: 989px) {
+        }
+      }
+      .info-team {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+
+        color: #000000;
+        margin-top: 20px;
+      }
+      .src-team {
+        text-align: right;
+        .link {
+          font-family: Open Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 25px;
+          /* identical to box height */
+
+          color: #2c7df7;
+          padding-right: 20px;
+        }
+      }
+    }
+  }
+}

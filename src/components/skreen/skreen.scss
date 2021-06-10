@@ -1,0 +1,129 @@
+.block-screen {
+  display: flex;
+  justify-content: space-between;
+  max-height: 740px;
+  @media (max-width: 1171px) {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  @media (max-width: 965px) {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  @media (max-width: 805px) {
+    margin-top: 80px;
+  }
+}
+.screen-info {
+  margin-top: 100px;
+  @media (max-width: 1171px) {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .screen-info-img {
+    height: 131px;
+    width: 116px;
+    @media (max-width: 1171px) {
+      display: none;
+    }
+  }
+  .info-title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 74px;
+    /* identical to box height */
+
+    letter-spacing: 0.045em;
+
+    color: #ffffff;
+    @media (max-width: 450px) {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 49px;
+    }
+  }
+  .info-screp {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+
+    color: #ffffff;
+    @media (max-width: 450px) {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 25px;
+    }
+  }
+}
+
+.screen-table {
+  margin-top: 90px;
+  width: 600px;
+  height: 450px;
+  overflow-y: scroll;
+  overflow: auto;
+  overflow-x: scroll;
+
+  @media (max-width: 1171px) {
+    margin-top: 30px;
+    width: 741px;
+    height: 425px;
+  }
+  @media (max-width: 764px) {
+    width: 500px;
+    height: 360px;
+  }
+  @media (max-width: 513px) {
+    width: 400px;
+    height: 300px;
+  }
+  @media (max-width: 413px) {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+// @media screen and (max-width: 600px) {
+//   table {
+//     width: 100%;
+//   }
+//   thead {
+//     display: none;
+//   }
+//   tr:nth-of-type(2n) {
+//     background-color: inherit;
+//   }
+//   tr td:first-child {
+//     background: #f0f0f0;
+//     font-weight: bold;
+//     font-size: 1.3em;
+//   }
+//   tr th:first-child {
+//     font-weight: bold;
+//     font-size: 1.3em;
+//   }
+//   tbody td,
+//   tbody th {
+//     display: block;
+//     text-align: center;
+//   }
+//   tbody td,
+//   tbody th:before {
+//     content: attr(data-th);
+//     display: block;
+//     text-align: center;
+//   }
+// }

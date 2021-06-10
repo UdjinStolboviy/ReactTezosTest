@@ -1,0 +1,35 @@
+.block-footer {
+  .footer-info-one {
+    display: flex;
+    @media (max-width: 650px) {
+      display: flex;
+      flex-flow: column;
+    }
+    .team1 {
+      display: flex;
+      flex-flow: column;
+      width: 400px;
+    }
+    .team2 {
+      padding-right: 30px;
+      display: flex;
+      flex-flow: column;
+    }
+  }
+  .link-footer {
+    padding-top: 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+  .cop {
+    display: block;
+    text-align: right;
+    padding-bottom: 30px;
+  }
+}
